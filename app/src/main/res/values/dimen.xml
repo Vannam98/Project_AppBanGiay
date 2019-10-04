@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="txt_Size">25dp</dimen>
+    <dimen name="btn_marginLeftTroVe">80dp</dimen>
+    <dimen name="txt_marginTopDiaChi">10dp</dimen>
+    <dimen name="txt_marginLeftDiaChi">10dp</dimen>
+    <dimen name="height">0dp</dimen>
+    <dimen name="txt_TopTimkiem">10dp</dimen>
+    <dimen name="btn_marginLeftHuy">10dp</dimen>
+    <dimen name="btn_HoanThanhvaHuy">170dp</dimen>
+</resources>
