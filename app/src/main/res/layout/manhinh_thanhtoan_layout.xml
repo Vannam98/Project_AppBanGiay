@@ -1,6 +1,158 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_backroud"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:background="@color/color_backroud"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="@dimen/text_size"
+            android:textColor="@color/txt_black"
+            android:text="@string/name_page">
+
+        </TextView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:background="@color/color_backroud"
+        android:orientation="horizontal">
+//listview san pham
+        <ListView
+            android:id="@+id/listview_manghinh_thanhtoan"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+        </ListView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="@color/color_backroud"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:orientation="vertical">
+//tenkhachhang
+            <TextView
+                android:id="@+id/txttenkhachhang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/txt_black"
+                android:text="@string/txt_tenkhachhang_thanhtoan">
+
+            </TextView>
+//sodienthoai
+            <TextView
+                android:id="@+id/txtsodienthoai"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/txt_black"
+                android:text="@string/txt_sodienthoai_thanhtoan">
+
+            </TextView>
+//diachigiao
+            <TextView
+                android:id="@+id/txtdiachigiao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/txt_black"
+                android:hint="@string/txt_diachigiao_thanhtoan"
+
+                >
+
+            </TextView>
+//phivanchuyen
+            <TextView
+                android:id="@+id/txt_phivanchuyen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/txt_black"
+
+                android:text="@string/txt_phivanchuyen_thanhtoan">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            //button chinh sua
+
+            <Button
+                android:id="@+id/btnchinhsua"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="@dimen/layout_margin"
+                android:background="@drawable/vienbutton"
+                android:text="@string/txt_chinhsua_thanhtoan"
+                android:textColor="@color/txt_black"
+                />
+//tongtien
+            <TextView
+                android:id="@+id/txt_tongtien"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/layout_margin_thongtin"
+                android:text="@string/txt_tongtien_thanhtoan"
+                android:textColor="@color/txt_black">
+
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+//buton dang hang
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/layout_margin"
+            android:background="@drawable/vienbutton"
+            android:text="@string/btn_dathan"
+            android:textColor="@color/txt_black" />
+//button huy
+        <Button
+            android:id="@+id/btnKetThuc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/layout_margin"
+            android:background="@drawable/vienbutton"
+            android:text="@string/btn_huy"
+            android:textColor="@color/txt_black" />
+
+
+    </LinearLayout>
+
 
 </LinearLayout>
