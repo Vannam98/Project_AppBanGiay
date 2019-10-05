@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size">25dp</dimen>
+    <dimen name="layout_margin_Left_20dp">20dp</dimen>
+    <dimen name="layout_margin_Left_40dp">40dp</dimen>
+
+    <dimen name="layout_margin_Top_5dp">5dp</dimen>
+    <dimen name="layout_margin_Top_10dp">10dp</dimen>
+    <dimen name="layout_margin_Top_20dp">20dp</dimen>
+    <dimen name="layout_margin_Top_70dp">70dp</dimen>
+    <dimen name="layout_margin_Top_120dp">120dp</dimen>
+
+    <dimen name="layout_margin_Right_10dp">10dp</dimen>
+    <dimen name="layout_margin_Right_20dp">20dp</dimen>
+    <dimen name="layout_margin_Right_70dp">70dp</dimen>
+
+    <dimen name="layout_margin_10dp">10dp</dimen>
+</resources>

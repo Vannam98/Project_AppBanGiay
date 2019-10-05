@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_maNV"
+            android:id="@+id/txt_maNV"
+            >
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_tenNV"
+            android:id="@+id/txt_tenNV">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_SDTNV"
+            android:id="@+id/txt_SDTNV">
+
+        </TextView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_diaChiNV"
+            android:id="@+id/txt_diaChiNV">
+
+        </TextView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_email"
+            android:id="@+id/txt_email">
+
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_chucVu"
+            android:id="@+id/txt_chucVu">
+
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            android:layout_gravity="right"
+            android:layout_marginRight="@dimen/layout_margin_Right_20dp"
+            android:layout_marginTop="@dimen/layout_margin_Top_10dp">
+
+        </ImageView>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_chinhSua"
+                android:id="@+id/btn_chinhSua"
+                android:layout_marginRight="@dimen/layout_margin_Right_20dp"
+                android:background="@drawable/vienbutton"
+                android:layout_marginTop="@dimen/layout_margin_Top_20dp"
+                android:layout_gravity="right">
+            </Button>
+    </LinearLayout>
+</LinearLayout>
