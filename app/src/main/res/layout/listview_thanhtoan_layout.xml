@@ -9,10 +9,10 @@ android:orientation="horizontal">
 <LinearLayout
     android:layout_width="0dp"
     android:layout_height="match_parent"
-    android:gravity="center"
+    android:gravity="center_vertical"
     android:layout_weight="3"
-    android:background="@color/color_backroud"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    >
     //tensanpham
     <TextView
         android:id="@+id/txt_tensanpham_lsv"
@@ -20,7 +20,8 @@ android:orientation="horizontal">
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/layout_margin_thongtin"
         android:text="@string/txt_tensanpham_thanhtoan"
-        android:textColor="@color/txt_black">
+        android:textColor="@color/txt_black"
+        >
     </TextView>
 
     <LinearLayout
@@ -30,14 +31,14 @@ android:orientation="horizontal">
         android:gravity="center_vertical"
         >
         //size
+
         <TextView
             android:id="@+id/txt_size_lsv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/layout_margin_thongtin"
             android:text="@string/txt_size_thanhtoan"
-            android:textColor="@color/txt_black">
-        </TextView>
+            android:textColor="@color/txt_black"></TextView>
 
         <Spinner
             android:id="@+id/spinner_thanhtoan"
@@ -51,11 +52,8 @@ android:orientation="horizontal">
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_vertical"
-        android:orientation="horizontal"
-        >
-
+        android:orientation="horizontal">
         <TextView
-            android:id="@+id/txt_soluong_lsv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/layout_margin_thongtin"
@@ -63,20 +61,16 @@ android:orientation="horizontal">
             android:textColor="@color/txt_black">
 
         </TextView>
-
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:gravity="center_vertical">
-
-            <EditText
-                android:id="@+id/edt_soluong_lsv"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-            </EditText>
-
+                <EditText
+                    android:id="@+id/edt_soluong_lsv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </EditText>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -85,14 +79,12 @@ android:orientation="horizontal">
 
                 <Button
                     android:id="@+id/button_tang_lsv"
-                    android:layout_width="3dp"
-                    android:layout_height="11dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
                     android:minWidth="@dimen/size_Button"
                     android:minHeight="@dimen/size_Button"
                     android:text="^">
-
                 </Button>
-
                 <Button
                     android:id="@+id/button_xuong_lsv"
                     android:layout_width="wrap_content"
