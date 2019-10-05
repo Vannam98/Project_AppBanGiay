@@ -11,8 +11,10 @@
     <string name="txt_confirmpass"> NHập lại mật khẩu  </string>
     <string name="btn_link_to_register"> Bạn chưa có tài khoản đăng kí ngay !!  </string>
     <string name="btn_login"> Login  </string>
-
-
+    <string name="sign_up_button"> Đăng Ký  </string>
+    <string name="have_account"> Có tài khoản , đăng nhập ngay  </string>
+    <string name="close">Nav</string>
+    <string name="open">Nav</string>
     <string name="txt_ThongTinSanPham">THÔNG TIN SẢN PHẨM</string>
     <string name="txt_TenSanPham">Tên sản phẩm:</string>
     <string name="txt_size">Size:</string>
@@ -32,7 +34,7 @@
     <string name="txt_Email">Email</string>
     <string name="txt_SoDienThoai">Số Điện Thoại</string>
     <string name="txt_TenTaiKhoan">Tên Tài Khoản</string>
-    <string name="txt_Password">Password</string>
+    <string name="txt_password">Password</string>
     <string name="btn_DoiMatKhau">Đổi Mật Khẩu</string>
     <string name="btn_CapNhat">Cập nhật</string>
     <string name="btn_DangXuat">Đăng Xuất</string>
