@@ -6,15 +6,6 @@
     <string name="txt_DSQLNV">Quản lý nhân viên</string>
     <string name="txt_taoTKNV">Tạo tài khoản nhân viên</string>
 
-    <string name="btn_ThanhToan">Thanh Toán</string>
-    <string name="btn_Thoat">Thoát</string>
-    <string name="btn_Refresh">Refresh</string>
-    <string name="btn_TroVe">Trở về</string>
-    <string name="btn_XacNhan">Xác nhận</string>
-    <string name="btn_Huy">Hủy</string>
-    <string name="btn_chinhSua">Chỉnh sửa</string>
-    <string name="btn_Tao">Tạo</string>
-
     <string name="txt_MaSP">Mã Sản Phẩm:</string>
     <string name="txt_TenSP">Tên Sản Phẩm:</string>
     <string name="txt_SoLuong">Số lượng</string>
@@ -42,10 +33,20 @@
 
     <string name="txt_timKiem">Tìm kiếm</string>
 
-    <string name="hint_tenNV">nhập tên nhân viên</string>
-    <string name="hint_soDT">nhập số điện thoại</string>
-    <string name="hint_email">nhập email</string>
-    <string name="hint_maNV">nhập mã nhân viên</string>
-    <string name="hint_password">nhập mật khẩu</string>
-    <string name="hint_conform_password">nhập lại mật khẩu</string>
+    <string name="btn_ThanhToan">Thanh Toán</string>
+    <string name="btn_Thoat">Thoát</string>
+    <string name="btn_Refresh">Refresh</string>
+    <string name="btn_TroVe">Trở về</string>
+    <string name="btn_XacNhan">Xác nhận</string>
+    <string name="btn_Huy">Hủy</string>
+    <string name="btn_chinhSua">Chỉnh sửa</string>
+    <string name="btn_Tao">Tạo</string>
+    
+    <string name="edt_tenNV">nhập tên nhân viên</string>
+    <string name="edt_soDT">nhập số điện thoại</string>
+    <string name="edt_email">nhập email</string>
+    <string name="edt_maNV">nhập mã nhân viên</string>
+    <string name="edt_password">nhập mật khẩu</string>
+    <string name="edt_conform_password">nhập lại mật khẩu</string>
+
 </resources>

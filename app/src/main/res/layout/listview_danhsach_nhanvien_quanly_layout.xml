@@ -9,12 +9,14 @@
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="3"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:gravity="center_vertical">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/txt_maNV"
+            android:textColor="@color/txt_color"
             android:id="@+id/txt_maNV"
             >
 
@@ -23,6 +25,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/txt_tenNV"
+            android:textColor="@color/txt_color"
             android:id="@+id/txt_tenNV">
 
         </TextView>
@@ -31,6 +34,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/txt_SDTNV"
+            android:textColor="@color/txt_color"
             android:id="@+id/txt_SDTNV">
 
         </TextView>
@@ -40,6 +44,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/txt_diaChiNV"
+            android:textColor="@color/txt_color"
             android:id="@+id/txt_diaChiNV">
 
         </TextView>
@@ -49,6 +54,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/txt_email"
+            android:textColor="@color/txt_color"
             android:id="@+id/txt_email">
 
 
@@ -58,6 +64,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/txt_chucVu"
+            android:textColor="@color/txt_color"
             android:id="@+id/txt_chucVu">
 
 
@@ -68,7 +75,8 @@
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="3"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:gravity="center_vertical">
 
         <ImageView
             android:layout_width="wrap_content"

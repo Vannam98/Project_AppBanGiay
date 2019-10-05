@@ -72,8 +72,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:background="@drawable/vien"
-                        android:hint="@string/hint_tenNV"
-                        android:id="@+id/hint_tenNV"
+                        android:hint="@string/edt_tenNV"
+                        android:id="@+id/edt_tenNV"
                         android:layout_marginTop="@dimen/layout_margin_Top_5dp">
 
                     </EditText>
@@ -98,8 +98,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:background="@drawable/vien"
-                        android:hint="@string/hint_soDT"
-                        android:id="@+id/hint_soDT"
+                        android:hint="@string/edt_soDT"
+                        android:id="@+id/edt_soDT"
                         android:layout_marginTop="@dimen/layout_margin_Top_5dp">
 
                     </EditText>
@@ -115,8 +115,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:background="@drawable/vien"
-                        android:hint="@string/hint_email"
-                        android:id="@+id/hint_email"
+                        android:hint="@string/edt_email"
+                        android:id="@+id/edt_email"
                         android:layout_marginTop="@dimen/layout_margin_Top_5dp">
 
                     </EditText>
@@ -133,8 +133,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:background="@drawable/vien"
-                        android:hint="@string/hint_maNV"
-                        android:id="@+id/hint_maNV"
+                        android:hint="@string/edt_maNV"
+                        android:id="@+id/edt_maNV"
                         android:layout_marginTop="@dimen/layout_margin_Top_5dp">
 
                     </EditText>
@@ -151,8 +151,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:background="@drawable/vien"
-                        android:hint="@string/hint_password"
-                        android:id="@+id/hint_password"
+                        android:hint="@string/edt_password"
+                        android:id="@+id/edt_password"
                         android:layout_marginTop="@dimen/layout_margin_Top_5dp">
 
                     </EditText>
@@ -161,7 +161,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/txt_conformpassword"
-                        android:id="@+id/txt_txt_conformpassword"
+                        android:id="@+id/txt_conformpassword"
                         android:layout_marginTop="@dimen/layout_margin_Top_5dp">
                     </TextView>
 
@@ -169,8 +169,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:background="@drawable/vien"
-                        android:hint="@string/hint_conform_password"
-                        android:id="@+id/conform_password"
+                        android:hint="@string/edt_conform_password"
+                        android:id="@+id/edt_conform_password"
                         android:layout_marginTop="@dimen/layout_margin_Top_5dp">
 
                     </EditText>

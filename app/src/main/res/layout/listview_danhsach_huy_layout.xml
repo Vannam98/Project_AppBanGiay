@@ -9,12 +9,14 @@
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="3"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:gravity="center_vertical">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/txt_maDH"
+            android:textColor="@color/txt_color"
             android:id="@+id/txt_MaDH"
             >
 
@@ -23,6 +25,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/txt_TenSP"
+            android:textColor="@color/txt_color"
             android:id="@+id/txt_TenSP">
 
         </TextView>
@@ -31,6 +34,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/txt_SoLuong"
+            android:textColor="@color/txt_color"
             android:id="@+id/txt_SoLuong">
 
         </TextView>
@@ -40,6 +44,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/txt_Size"
+            android:textColor="@color/txt_color"
             android:id="@+id/txt_Size">
 
         </TextView>
@@ -48,6 +53,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/txt_color"
             android:text="@string/txt_TongTien">
 
 
@@ -58,12 +64,14 @@
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="3"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:gravity="center_vertical">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/txt_tinhTrang"
+            android:textColor="@color/txt_color"
             android:id="@+id/txt_tinhTrang">
 
         </TextView>
@@ -72,6 +80,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/txt_liDoHuy"
+            android:textColor="@color/txt_color"
             android:id="@+id/txt_liDoHuy">
 
         </TextView>
