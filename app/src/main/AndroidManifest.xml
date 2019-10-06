@@ -17,12 +17,13 @@
         <activity android:name=".MainNavActivity">
         </activity>
         <activity android:name=".SignupActivity">
+        <activity android:name=".DanhSach.DanhSachDonHangActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
     </application>
-
 
 </manifest>

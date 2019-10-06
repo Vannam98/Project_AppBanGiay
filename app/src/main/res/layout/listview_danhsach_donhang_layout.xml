@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:orientation="vertical"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_MaSP"
+            android:textColor="@color/txt_color"
+            android:id="@+id/txt_MaSP"
+            >
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_TenSP"
+            android:textColor="@color/txt_color"
+            android:id="@+id/txt_TenSP">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_SoLuong"
+            android:textColor="@color/txt_color"
+            android:id="@+id/txt_SoLuong">
+
+        </TextView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_Size"
+            android:textColor="@color/txt_color"
+            android:id="@+id/txt_Size">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:orientation="vertical"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_TongTien"
+            android:textColor="@color/txt_color"
+            >
+
+        </TextView>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:layout_gravity="right"
+            android:buttonTint="@color/chk_color"
+
+            >
+        </CheckBox>
+
+    </LinearLayout>
+
+</LinearLayout>
