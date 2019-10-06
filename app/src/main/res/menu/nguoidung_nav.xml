@@ -22,7 +22,7 @@
                 >
             </item>
             <item android:id="@+id/giaykid"
-                android:title="@string/btn_logout"
+                android:title="@string/nav_logout"
                 >
             </item>
         </group>

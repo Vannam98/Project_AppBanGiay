@@ -17,12 +17,7 @@
         android:paddingTop="32dp">
 
 
-        <com.makeramen.roundedimageview.RoundedImageView
-            android:id="@+id/sign_up_upload_avatar_button"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:src="@mipmap/sign_up_camera_button"
-            app:riv_oval="false" />
+
 
         <EditText
             android:id="@+id/sign_up_username"
