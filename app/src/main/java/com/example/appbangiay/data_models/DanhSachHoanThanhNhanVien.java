@@ -1,27 +1,29 @@
-package com.example.appbangiay.datamodel;
+package com.example.appbangiay.data_models;
 
-public class DanhSachHoanThanhQuanLy {
+public class DanhSachHoanThanhNhanVien {
     private String maDonHang;
     private String tenSanPham;
+    private String soLuong;
+    private String size;
+    private String mau;
     private String tenKH;
     private String soDienThoaiKH;
     private String diaChiKH;
-    private String nguoiGiao;
-    private String soDTNguoiGiao;
     private String tongTien;
     private String tinhTrang;
-    public DanhSachHoanThanhQuanLy(){
+    public DanhSachHoanThanhNhanVien(){
 
     }
 
-    public DanhSachHoanThanhQuanLy(String maDonHang, String tenSanPham, String tenKH, String soDienThoaiKH, String diaChiKH, String nguoiGiao, String soDTNguoiGiao, String tongTien, String tinhTrang) {
+    public DanhSachHoanThanhNhanVien(String maDonHang, String tenSanPham, String soLuong, String size, String mau, String tenKH, String soDienThoaiKH, String diaChiKH, String tongTien, String tinhTrang) {
         this.maDonHang = maDonHang;
         this.tenSanPham = tenSanPham;
+        this.soLuong = soLuong;
+        this.size = size;
+        this.mau = mau;
         this.tenKH = tenKH;
         this.soDienThoaiKH = soDienThoaiKH;
         this.diaChiKH = diaChiKH;
-        this.nguoiGiao = nguoiGiao;
-        this.soDTNguoiGiao = soDTNguoiGiao;
         this.tongTien = tongTien;
         this.tinhTrang = tinhTrang;
     }
@@ -40,6 +42,30 @@ public class DanhSachHoanThanhQuanLy {
 
     public void setTenSanPham(String tenSanPham) {
         this.tenSanPham = tenSanPham;
+    }
+
+    public String getSoLuong() {
+        return soLuong;
+    }
+
+    public void setSoLuong(String soLuong) {
+        this.soLuong = soLuong;
+    }
+
+    public String getSize() {
+        return size;
+    }
+
+    public void setSize(String size) {
+        this.size = size;
+    }
+
+    public String getMau() {
+        return mau;
+    }
+
+    public void setMau(String mau) {
+        this.mau = mau;
     }
 
     public String getTenKH() {
@@ -66,22 +92,6 @@ public class DanhSachHoanThanhQuanLy {
         this.diaChiKH = diaChiKH;
     }
 
-    public String getNguoiGiao() {
-        return nguoiGiao;
-    }
-
-    public void setNguoiGiao(String nguoiGiao) {
-        this.nguoiGiao = nguoiGiao;
-    }
-
-    public String getSoDTNguoiGiao() {
-        return soDTNguoiGiao;
-    }
-
-    public void setSoDTNguoiGiao(String soDTNguoiGiao) {
-        this.soDTNguoiGiao = soDTNguoiGiao;
-    }
-
     public String getTongTien() {
         return tongTien;
     }
@@ -100,6 +110,6 @@ public class DanhSachHoanThanhQuanLy {
 
     @Override
     public String toString() {
-        return maDonHang + tenSanPham + tenKH + soDienThoaiKH + diaChiKH + nguoiGiao + soDTNguoiGiao + tongTien + tinhTrang;
+        return maDonHang + tenSanPham +soLuong +size +mau + tenKH + soDienThoaiKH + diaChiKH + tongTien + tinhTrang;
     }
 }

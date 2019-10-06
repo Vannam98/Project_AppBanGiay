@@ -1,4 +1,4 @@
-package com.example.appbangiay.datamodel;
+package com.example.appbangiay.data_models;
 
 public class DanhSachDonHang {
     private String maSanPham;

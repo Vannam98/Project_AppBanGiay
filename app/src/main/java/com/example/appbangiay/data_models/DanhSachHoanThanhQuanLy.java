@@ -1,30 +1,29 @@
-package com.example.appbangiay.datamodel;
+package com.example.appbangiay.data_models;
 
-public class DanhSachHuyQuanLy {
+public class DanhSachHoanThanhQuanLy {
     private String maDonHang;
     private String tenSanPham;
-    private String soLuong;
-    private String tenKhachHang;
+    private String tenKH;
     private String soDienThoaiKH;
     private String diaChiKH;
+    private String nguoiGiao;
+    private String soDTNguoiGiao;
     private String tongTien;
     private String tinhTrang;
-    private String lyDoHuy;
-
-    public DanhSachHuyQuanLy(){
+    public DanhSachHoanThanhQuanLy(){
 
     }
 
-    public DanhSachHuyQuanLy(String maDonHang, String tenSanPham, String soLuong, String tenKhachHang, String soDienThoaiKH, String diaChiKH, String tongTien, String tinhTrang, String lyDoHuy) {
+    public DanhSachHoanThanhQuanLy(String maDonHang, String tenSanPham, String tenKH, String soDienThoaiKH, String diaChiKH, String nguoiGiao, String soDTNguoiGiao, String tongTien, String tinhTrang) {
         this.maDonHang = maDonHang;
         this.tenSanPham = tenSanPham;
-        this.soLuong = soLuong;
-        this.tenKhachHang = tenKhachHang;
+        this.tenKH = tenKH;
         this.soDienThoaiKH = soDienThoaiKH;
         this.diaChiKH = diaChiKH;
+        this.nguoiGiao = nguoiGiao;
+        this.soDTNguoiGiao = soDTNguoiGiao;
         this.tongTien = tongTien;
         this.tinhTrang = tinhTrang;
-        this.lyDoHuy = lyDoHuy;
     }
 
     public String getMaDonHang() {
@@ -43,20 +42,12 @@ public class DanhSachHuyQuanLy {
         this.tenSanPham = tenSanPham;
     }
 
-    public String getSoLuong() {
-        return soLuong;
+    public String getTenKH() {
+        return tenKH;
     }
 
-    public void setSoLuong(String soLuong) {
-        this.soLuong = soLuong;
-    }
-
-    public String getTenKhachHang() {
-        return tenKhachHang;
-    }
-
-    public void setTenKhachHang(String tenKhachHang) {
-        this.tenKhachHang = tenKhachHang;
+    public void setTenKH(String tenKH) {
+        this.tenKH = tenKH;
     }
 
     public String getSoDienThoaiKH() {
@@ -75,6 +66,22 @@ public class DanhSachHuyQuanLy {
         this.diaChiKH = diaChiKH;
     }
 
+    public String getNguoiGiao() {
+        return nguoiGiao;
+    }
+
+    public void setNguoiGiao(String nguoiGiao) {
+        this.nguoiGiao = nguoiGiao;
+    }
+
+    public String getSoDTNguoiGiao() {
+        return soDTNguoiGiao;
+    }
+
+    public void setSoDTNguoiGiao(String soDTNguoiGiao) {
+        this.soDTNguoiGiao = soDTNguoiGiao;
+    }
+
     public String getTongTien() {
         return tongTien;
     }
@@ -91,16 +98,8 @@ public class DanhSachHuyQuanLy {
         this.tinhTrang = tinhTrang;
     }
 
-    public String getLyDoHuy() {
-        return lyDoHuy;
-    }
-
-    public void setLyDoHuy(String lyDoHuy) {
-        this.lyDoHuy = lyDoHuy;
-    }
-
     @Override
     public String toString() {
-        return maDonHang + tenSanPham + soLuong + tenKhachHang + soDienThoaiKH + diaChiKH + tongTien + tinhTrang + lyDoHuy;
+        return maDonHang + tenSanPham + tenKH + soDienThoaiKH + diaChiKH + nguoiGiao + soDTNguoiGiao + tongTien + tinhTrang;
     }
 }

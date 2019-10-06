@@ -7,7 +7,7 @@
     <string name="txt_email">Email  </string>
     <string name="txt_phone">Phone  </string>
     <string name="txt_User"> Tên Đăng Nhập  </string>
-    <string name="txt_Password"> Mật khẩu  </string>
+    <string name="txt_password"> Mật khẩu  </string>
     <string name="txt_confirmpass"> NHập lại mật khẩu  </string>
     <string name="btn_link_to_register"> Bạn chưa có tài khoản đăng kí ngay !!  </string>
     <string name="btn_login"> Login  </string>
@@ -40,7 +40,7 @@
     <string name="txt_QuanLySanPham">QUẢN LÝ SẢN PHẨM</string>
     <string name="txt_TimKiem">Tìm kiếm</string>
     <string name="txt_MaSanPham">Mã sản phẩm</string>
-    <string name="btn_Tạo">Tạo</string>
+    <string name="btn_Tao">Tạo</string>
     <string name="btn_TraLoi">Trả lời</string>
     <string name="txt_TaoSanPham">TẠO SẢN PHẨM</string>
     <string name="txt_ThemAnh">Thêm Ảnh</string>

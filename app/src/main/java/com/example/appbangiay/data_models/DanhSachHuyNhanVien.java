@@ -1,31 +1,25 @@
-package com.example.appbangiay.datamodel;
+package com.example.appbangiay.data_models;
 
-public class DanhSachHoanThanhNhanVien {
+public class DanhSachHuyNhanVien {
     private String maDonHang;
     private String tenSanPham;
     private String soLuong;
     private String size;
-    private String mau;
-    private String tenKH;
-    private String soDienThoaiKH;
-    private String diaChiKH;
     private String tongTien;
     private String tinhTrang;
-    public DanhSachHoanThanhNhanVien(){
+    private String lyDoHuy;
+    public DanhSachHuyNhanVien(){
 
     }
 
-    public DanhSachHoanThanhNhanVien(String maDonHang, String tenSanPham, String soLuong, String size, String mau, String tenKH, String soDienThoaiKH, String diaChiKH, String tongTien, String tinhTrang) {
+    public DanhSachHuyNhanVien(String maDonHang, String tenSanPham, String soLuong, String size, String tongTien, String tinhTrang, String lyDoHuy) {
         this.maDonHang = maDonHang;
         this.tenSanPham = tenSanPham;
         this.soLuong = soLuong;
         this.size = size;
-        this.mau = mau;
-        this.tenKH = tenKH;
-        this.soDienThoaiKH = soDienThoaiKH;
-        this.diaChiKH = diaChiKH;
         this.tongTien = tongTien;
         this.tinhTrang = tinhTrang;
+        this.lyDoHuy = lyDoHuy;
     }
 
     public String getMaDonHang() {
@@ -60,38 +54,6 @@ public class DanhSachHoanThanhNhanVien {
         this.size = size;
     }
 
-    public String getMau() {
-        return mau;
-    }
-
-    public void setMau(String mau) {
-        this.mau = mau;
-    }
-
-    public String getTenKH() {
-        return tenKH;
-    }
-
-    public void setTenKH(String tenKH) {
-        this.tenKH = tenKH;
-    }
-
-    public String getSoDienThoaiKH() {
-        return soDienThoaiKH;
-    }
-
-    public void setSoDienThoaiKH(String soDienThoaiKH) {
-        this.soDienThoaiKH = soDienThoaiKH;
-    }
-
-    public String getDiaChiKH() {
-        return diaChiKH;
-    }
-
-    public void setDiaChiKH(String diaChiKH) {
-        this.diaChiKH = diaChiKH;
-    }
-
     public String getTongTien() {
         return tongTien;
     }
@@ -108,8 +70,16 @@ public class DanhSachHoanThanhNhanVien {
         this.tinhTrang = tinhTrang;
     }
 
+    public String getLyDoHuy() {
+        return lyDoHuy;
+    }
+
+    public void setLyDoHuy(String lyDoHuy) {
+        this.lyDoHuy = lyDoHuy;
+    }
+
     @Override
     public String toString() {
-        return maDonHang + tenSanPham +soLuong +size +mau + tenKH + soDienThoaiKH + diaChiKH + tongTien + tinhTrang;
+        return maDonHang + tenSanPham + soLuong + size + tongTien + tinhTrang + lyDoHuy;
     }
 }

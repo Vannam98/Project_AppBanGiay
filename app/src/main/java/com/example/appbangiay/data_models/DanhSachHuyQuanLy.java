@@ -1,22 +1,27 @@
-package com.example.appbangiay.datamodel;
+package com.example.appbangiay.data_models;
 
-public class DanhSachHuyNhanVien {
+public class DanhSachHuyQuanLy {
     private String maDonHang;
     private String tenSanPham;
     private String soLuong;
-    private String size;
+    private String tenKhachHang;
+    private String soDienThoaiKH;
+    private String diaChiKH;
     private String tongTien;
     private String tinhTrang;
     private String lyDoHuy;
-    public DanhSachHuyNhanVien(){
+
+    public DanhSachHuyQuanLy(){
 
     }
 
-    public DanhSachHuyNhanVien(String maDonHang, String tenSanPham, String soLuong, String size, String tongTien, String tinhTrang, String lyDoHuy) {
+    public DanhSachHuyQuanLy(String maDonHang, String tenSanPham, String soLuong, String tenKhachHang, String soDienThoaiKH, String diaChiKH, String tongTien, String tinhTrang, String lyDoHuy) {
         this.maDonHang = maDonHang;
         this.tenSanPham = tenSanPham;
         this.soLuong = soLuong;
-        this.size = size;
+        this.tenKhachHang = tenKhachHang;
+        this.soDienThoaiKH = soDienThoaiKH;
+        this.diaChiKH = diaChiKH;
         this.tongTien = tongTien;
         this.tinhTrang = tinhTrang;
         this.lyDoHuy = lyDoHuy;
@@ -46,12 +51,28 @@ public class DanhSachHuyNhanVien {
         this.soLuong = soLuong;
     }
 
-    public String getSize() {
-        return size;
+    public String getTenKhachHang() {
+        return tenKhachHang;
     }
 
-    public void setSize(String size) {
-        this.size = size;
+    public void setTenKhachHang(String tenKhachHang) {
+        this.tenKhachHang = tenKhachHang;
+    }
+
+    public String getSoDienThoaiKH() {
+        return soDienThoaiKH;
+    }
+
+    public void setSoDienThoaiKH(String soDienThoaiKH) {
+        this.soDienThoaiKH = soDienThoaiKH;
+    }
+
+    public String getDiaChiKH() {
+        return diaChiKH;
+    }
+
+    public void setDiaChiKH(String diaChiKH) {
+        this.diaChiKH = diaChiKH;
     }
 
     public String getTongTien() {
@@ -80,6 +101,6 @@ public class DanhSachHuyNhanVien {
 
     @Override
     public String toString() {
-        return maDonHang + tenSanPham + soLuong + size + tongTien + tinhTrang + lyDoHuy;
+        return maDonHang + tenSanPham + soLuong + tenKhachHang + soDienThoaiKH + diaChiKH + tongTien + tinhTrang + lyDoHuy;
     }
 }
